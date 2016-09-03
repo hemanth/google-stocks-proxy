@@ -1,0 +1,24 @@
+{
+  "name": "google-stocks-proxy",
+  "version": "1.0.0",
+  "dependencies": {
+    "google-stocks": "^0.2.0",
+    "xkcd-imgs": "1.0.0"
+  },
+  "description": "> proxy for undocumented Googel Finace API.",
+  "main": "web.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo Nothing for now"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemanth/google-stocks-proxy.git"
+  },
+  "author": "Hemanth.HM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hemanth/google-stocks-proxy/issues"
+  },
+  "homepage": "https://github.com/hemanth/google-stocks-proxy#readme"
+}
