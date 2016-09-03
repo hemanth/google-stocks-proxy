@@ -12,7 +12,7 @@ Currenlty this is [hosted on heroku](https://google-stocks.herokuapp.com/), feel
 
 ## API:
 
-HTTP GET on the end point `https://google-stocks.herokuapp.com/` with `code` query param. 
+HTTP GET on the end point `https://google-stocks.herokuapp.com/?code=GOOG` with `code` query param. 
 
 `code` might be:
 
