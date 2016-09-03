@@ -49,9 +49,12 @@ Would log something like:
     "pcls_fix": "133.8"
   }
 ]
-
-P.S: next version will mostly get meanifuly attributes! 
-Currently it's just the spatting out what the API returns.
-
 */
 ```
+
+__TODO for the next versio:__
+
+
+* Next version will mostly get meanifuly attributes! [Currently it's just the spatting out what the API returns.]
+
+* Allow `codes` query param an array of `stockMarket:stockCode` values.
