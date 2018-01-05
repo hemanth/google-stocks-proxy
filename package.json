@@ -2,7 +2,7 @@
   "name": "google-stocks-proxy",
   "version": "1.0.0",
   "dependencies": {
-    "google-stocks": "^0.2.0",
+    "google-stocks": "^2.0.0",
     "xkcd-imgs": "1.0.0"
   },
   "description": "> proxy for undocumented Googel Finace API.",
