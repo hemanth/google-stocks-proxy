@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "dependencies": {
     "google-stocks": "^0.2.0",
-    "xkcd-imgs": "1.0.0"
+    "xkcd-imgs": "1.0.0",
+    "@snyk/protect": "latest"
   },
   "description": "> proxy for undocumented Googel Finace API.",
   "main": "web.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo Nothing for now"
+    "test": "echo Nothing for now",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/hemanth/google-stocks-proxy/issues"
   },
-  "homepage": "https://github.com/hemanth/google-stocks-proxy#readme"
+  "homepage": "https://github.com/hemanth/google-stocks-proxy#readme",
+  "snyk": true
 }

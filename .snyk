@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - google-stocks > request > hawk:
+        patched: '2024-02-09T14:52:16.628Z'
+        id: 'npm:hawk:20160119'
+        path: google-stocks > request > hawk
+  'npm:hoek:20180212':
+    - google-stocks > request > hawk > hoek:
+        patched: '2024-02-09T14:52:16.628Z'
+        id: 'npm:hoek:20180212'
+        path: google-stocks > request > hawk > hoek
+    - google-stocks > request > hawk > boom > hoek:
+        patched: '2024-02-09T14:52:16.628Z'
+        id: 'npm:hoek:20180212'
+        path: google-stocks > request > hawk > boom > hoek
+    - google-stocks > request > hawk > sntp > hoek:
+        patched: '2024-02-09T14:52:16.628Z'
+        id: 'npm:hoek:20180212'
+        path: google-stocks > request > hawk > sntp > hoek
+    - google-stocks > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-02-09T14:52:16.628Z'
+        id: 'npm:hoek:20180212'
+        path: google-stocks > request > hawk > cryptiles > boom > hoek
+  'npm:http-signature:20150122':
+    - google-stocks > request > http-signature:
+        patched: '2024-02-09T14:52:16.628Z'
+        id: 'npm:http-signature:20150122'
+        path: google-stocks > request > http-signature
+  'npm:request:20160119':
+    - google-stocks > request:
+        patched: '2024-02-09T14:52:16.628Z'
+        id: 'npm:request:20160119'
+        path: google-stocks > request
+  'npm:tunnel-agent:20170305':
+    - google-stocks > request > tunnel-agent:
+        patched: '2024-02-09T14:52:16.628Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: google-stocks > request > tunnel-agent
